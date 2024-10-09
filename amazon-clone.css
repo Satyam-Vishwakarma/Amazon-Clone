@@ -444,6 +444,7 @@ header{
         position: relative;
         top: -350px;
         width: 100%;
+        min-width: 1000px;
         padding: 0px 10px;
         margin: 0px;
         display: flex;
@@ -1726,7 +1727,7 @@ header{
     } /* main-body-last */
 } /* main */
 footer{
-    width:1350px;
+    width:100%;
     height: fit-content;
     #first-footer-anchar{
         display: inline-block;
@@ -1750,7 +1751,7 @@ footer{
     }
    
     .second-footer{
-        width: 100%;
+        width: auto;
         height: 500px;
         background-color: #232F3E;
         .second-footer-anchar{
